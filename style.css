@@ -1,3 +1,7 @@
+body{
+    background-color: white;
+    color: black;
+}
 .sidebar {
     width: 260px;
     height: 100vh;
@@ -59,6 +63,7 @@
     width:85%;
     margin-left: 15%;
     background: url('hero-bg.jpg') center/cover no-repeat;
+    color: black;
 }
 .card img {
     height: 200px;
@@ -88,6 +93,15 @@
     background-color: blue;
     color: white;
 }
+
+.toggle-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1050;
+    cursor: pointer;
+}
+
 
 @media (max-width: 990px)  and (min-width: 600px) {
     body{
